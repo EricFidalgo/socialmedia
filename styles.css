@@ -1,0 +1,59 @@
+@font-face {
+    src: url(font/theboldfont.ttf);
+    font-family: boldfont;
+}
+
+@font-face {
+    src: url(font/Uni\ Sans\ Heavy.otf);
+    font-family: unisans;
+}
+@font-face {
+    src: url(font/moongetheavy.ttf);
+    font-family: moonheavy;
+}
+
+@font-face {
+    src: url(font/SourceSansPro-Bold.ttf);
+    font-family: sourcesanspro;
+}
+
+@font-face {
+    src: url(font/QanelasSoftDEMO-ExtraBold.otf);
+    font-family: qanelas;
+}
+
+body {
+    background-color: black;
+  }
+  
+#nav-text {
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 9.5px;
+    color: #d5d3d0;
+}
+
+
+.navbar-brand {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-left: -.7rem;
+}
+
+.footer {
+    margin-left: .85rem;
+    margin-right: .85rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+#footer {
+    border-radius:5px 5px 0px 0px;
+}
+
+#nav {
+    border-radius: 0px 0px 5px 5px;
+}
