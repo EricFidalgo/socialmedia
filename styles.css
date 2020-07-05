@@ -1,3 +1,4 @@
+
 @font-face {
     src: url(font/theboldfont.ttf);
     font-family: boldfont;
@@ -30,16 +31,16 @@ body {
     font-size: 20px;
     font-family: Helvetica;
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 2.3rem;
     padding-top: 9.5px;
     color: #d5d3d0;
+    
 }
-
 
 .navbar-brand {
     margin-top: -20px;
     margin-bottom: -20px;
-    margin-left: -.7rem;
+    margin-left: -1rem;
 }
 
 .footer {
@@ -49,7 +50,6 @@ body {
     margin-bottom: 5px;
 }
 
-
 #footer {
     border-radius:0px 0px 0px 0px;
 }
@@ -57,4 +57,5 @@ body {
 #nav {
     border-radius: 0px 0px 0px 0px;
 }
+
 
