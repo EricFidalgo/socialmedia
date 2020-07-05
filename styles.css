@@ -33,8 +33,7 @@ body {
     font-weight: bold;
     padding-left: 1.8rem;
     padding-top: 9.5px;
-    color: #d5d3d0;
-    
+    color: #d5d3d0;  
 }
 
 .navbar-brand {
@@ -52,10 +51,12 @@ body {
 
 #footer {
     border-radius:0px 0px 0px 0px;
+    border-top: 1px solid #d5d3d0;
 }
 
 #nav {
     border-radius: 0px 0px 0px 0px;
+    border-bottom: 1px solid #d5d3d0;
 }
 
 
