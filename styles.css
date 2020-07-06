@@ -70,10 +70,10 @@
 }
 
 #menu-username {
-    margin-left: 1.5rem;
+    margin-left: .85rem;
+    margin-right: .85rem;
     font-family: sourcesanspro;
     padding-top: 10px;
     font-size: 20px;
-    color: #d5d3d0;
 }
 
