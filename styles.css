@@ -57,6 +57,7 @@
 #top-nav {
     height: 3.5rem;
     border-bottom: 1px solid #d5d3d0;
+    color: lawngreen;
 }
 
 #menu-pic {
@@ -95,7 +96,7 @@
 #selection {
     position: fixed;
     top: 9px;
-    color:#d5d3d0;
+    color: #232628;
     width: 22px;
     right: 10rem;
 }
@@ -115,11 +116,17 @@
     background-color: #232628;
     color: #d5d3d0;
     position: fixed;
-    right: 4rem;
+    right: 3.5rem;
 }
 
 #dropdown {
-    margin: 3rem 0 0;
+    margin: 2.86rem 0 0;
     min-width: 10rem;
     float: right;
+    background-color: #232628;
+    border-right: 1px solid #d5d3d0;
+    border-left: 1px solid #d5d3d0;
+    border-bottom: 1px solid #d5d3d0;
+    border-radius: 0rem 0rem .5rem .5rem;
 }
+
