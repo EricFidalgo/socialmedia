@@ -119,6 +119,11 @@
     right: 3.7rem;
 }
 
+#button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.12rem #d5d3d0;
+}
+
 #dropdown {
     margin: 2.86rem 0 0;
     min-width: 10rem;
