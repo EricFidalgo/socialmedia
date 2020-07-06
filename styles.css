@@ -86,7 +86,7 @@
 
 #plus {
     position: absolute;
-    left: 360px;
+    left: 345px;
     margin-top: -10px;
     color:#d5d3d0;
 
@@ -94,83 +94,17 @@
 
 #selection {
     position: absolute;
-    left: 400px;
+    left: 385px;
     margin-top: -0px;
-
-
-    font-size: 25px;
-    font-family: sourcesanspro;
-    font-weight: bold;
-    color: #d5d3d0; 
 }
 
-/* [SHARED] */
-.custom-select, .custom-select select {
-    font-family: arial, sans-serif;
-    height: 40px;
-    font-size: 1.05em;
-  }
-  
-  /* [SELECT FIED] */
-  .custom-select select {
-    /* Hide default arrow */
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    /* Cosmetics for the select box */
-    width: 100%;
-    padding: 5px 10px;
-    color: #333;
-    background-color: #f2f2f2;
-    border: 1px solid #ddd;
-    outline: none;
-  }
-  
-  /* [CUSTOM ARROW] */
-  .custom-select {
-    position: relative;
-    overflow: hidden;
-    max-width: 320px;
-    border-radius: 3px;
-  }
-  
-  /* [CUSTOM ARROW] */
-  .custom-select:after {
-    /* [HTML symbol you want to use] */
-    content: "\25bc";
-    color: #888;
-    font-size: 15px;
-    /* Positioning for the custom arrow */
-    padding: 12px 8px;
-    position: absolute;
-    right: 10px;
-    top: 0;
+.dropdown {
+    font-family: sourcesanspro;
+    font-weight: bold;
+}
+
+#dropdown-text {
     text-align: center;
-    pointer-events: none;
-  }
-  
-  /* [CIRCLE BACKGROUND] */
-  .circle.custom-select:after {
-    content: "\25b6";
-    background: #3462ad;
-    color: #fff;
-    padding: 5px 9px;
-    border-radius: 50%;
-    top: 5px;
-  }
-  
-  /* [SOLID BACKGROUND] */
-  .solid.custom-select:after {
-    content: "\25b6";
-    background: #d13c3c;
-    color: #fff;
-    height: 40px;
-    right: 0;
-    padding: 12px 15px;
-  }
-  
-  /* [DOES NOT MATTER] */
-  html, body {
-    padding: 10px;
-    margin: 0;
-  }
+    font-family: sourcesanspro;
+    font-weight: bold;
+}
