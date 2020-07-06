@@ -121,10 +121,11 @@
 
 #button:focus {
     outline: 0;
-    box-shadow: 0 0 0 0.12rem #d5d3d0;
+    box-shadow: 0 0 0px 1px rgba(213, 211, 208, 1);
 }
 
 #dropdown {
+    border: 0px solid rgba(0,0,0,.15);
     margin: 2.86rem 0 0;
     min-width: 10rem;
     float: right;
