@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 
     <title>Home • Social</title>
@@ -8,25 +8,21 @@
     <link rel="stylesheet" href="styles.css"> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <script src="script.js"></script>
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="dark.css">
 </head>
 <body>
 
 
-
-
-  <nav class="navbar fixed-top navbar-dark bg-dark" id="top-nav">
+  <nav class="navbar fixed-top" style="background-color: #232628;"id="top-nav">
       <a href="menu.html"><img class="navbar-brand" src="img/icon.png" alt="icon"/></a>
       <a class="navbar-brand" href="#"><h1 id="nav-text">Home</h1></a> 
       <a href="menu.html"><img id="plus" src="img/plus.png" alt="plus"/></a>
 
-      <div class="container" id="selection">
+      <div class="containe" id="selection">
         <div class="dropdown">
         <button class="btn btn-default dropdown-toggle navbar-right" type="button" id="button" data-toggle="dropdown" >Fuzzy
         <span class="caret"></span></button>
@@ -37,10 +33,16 @@
         </ul>
       </div>
     </div> 
+  </nav>
 
-  
+  <br> <br><br><br><br><br>
 
-<nav class="navbar fixed-bottom navbar-dark bg-dark" id="footer">
+  <div class="container">
+    <h1>Test</h1>
+    <p>Lorem ipsum dolor </p>
+</div>
+
+<nav class="navbar fixed-bottom" style="background-color: #232628;"id="footer">
   <a href="index.html"><img class="footer" src="img/home1.png" alt="home" width="30px"/></a>
   <a href="subscriptions.html"> <img class="footer" src="img/copyright.png" alt="subcriptions" width="30px"/> </a>
   <a href="search.html"> <img class="footer" id="search" src="img/searchcopyright.png" alt="search" width="30px"/></a>
@@ -48,6 +50,27 @@
   <a href="mail.html"> <img class="footer" src="img/mail.png" alt="envelope" width="30px"/></a>
 </nav>
 
+<script>
+var checkbox = document.querySelector('input[name=theme]');
+
+checkbox.addEventListener('change', function() {
+    if(this.checked) {
+        trans()
+        document.documentElement.setAttribute('data-theme', 'dark')
+    } else {
+        trans()
+        document.documentElement.setAttribute('data-theme', 'light')
+    }
+})
+
+let trans = () => {
+    document.documentElement.classList.add('transition');
+    window.setTimeout(() => {
+        document.documentElement.classList.remove('transition')
+    }, 1000)
+}
+
+</script>
 
 </body>
   
