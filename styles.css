@@ -29,15 +29,17 @@
     font-size: 20px;
     font-family: sourcesanspro;
     font-weight: bold;
-    padding-left: 1.0rem;
-    padding-top: .9rem;
-    color: #d5d3d0;  
+    margin-top: -.5rem;
+    color: #d5d3d0; 
+    position: fixed;
+    left: 5.3rem;
 }
 
 .navbar-brand {
-    margin-top: -20px;
-    margin-bottom: -20px;
-    margin-left: -1rem;
+    width:40px;
+    margin-top: -20.28rem;
+    margin-bottom: -20rem;
+    margin-left: 1rem;
 }
 
 .footer {
@@ -50,10 +52,11 @@
 #footer {
     border-radius:0px 0px 0px 0px;
     border-top: 1px solid #d5d3d0;
+    
 }
 
-#nav {
-    border-radius: 0px 0px 0px 0px;
+#top-nav {
+    height: 3.5rem;
     border-bottom: 1px solid #d5d3d0;
 }
 
@@ -79,28 +82,28 @@
 #menu-at {
     font-family: sourcesanspro;
     font-size: 20px;
-
 }
 
 #plus {
     position: fixed;
-    top: 5px;
-    right: 5rem;
+    top: 14px;
+    right: 1.15rem;
     color:#d5d3d0;
-    width: 22px;
+    width: 25px;
 }
 
 
 #selection {
-    position:fixed;
-    right: 5rem;
-    top: 5px;
+    position: fixed;
+    top: 9px;
+    color:#d5d3d0;
+    width: 22px;
+    right: 10rem;
 }
 
 .dropdown {
     font-family: sourcesanspro;
     font-weight: bold;
-    
 }
 
 #dropdown-text {
@@ -112,7 +115,12 @@
 #button {
     background-color: #232628;
     color: #d5d3d0;
+    position: fixed;
+    right: 4rem;
 }
 
-
-
+#dropdown {
+    margin: 3rem 0 0;
+    min-width: 10rem;
+    float: right;
+}
