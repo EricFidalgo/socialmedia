@@ -26,10 +26,10 @@
 
   
 #nav-text {
-    font-size: 25px;
+    font-size: 20px;
     font-family: sourcesanspro;
     font-weight: bold;
-    padding-left: 1.8rem;
+    padding-left: 1.0rem;
     padding-top: .9rem;
     color: #d5d3d0;  
 }
@@ -79,23 +79,21 @@
 #menu-at {
     font-family: sourcesanspro;
     font-size: 20px;
-    margin-top: -50px;
-    margin-left: 100px;
-    padding-bottom: -50px;
+
 }
 
 #plus {
-    position: absolute;
-    left: 345px;
-    margin-top: -10px;
+    position: fixed;
+    top: 5px;
+    right: 5rem;
     color:#d5d3d0;
-
+    width: 22px;
 }
 
+
 #selection {
-    position: absolute;
-    left: 230px;
-    margin-top: -0px;
+    position:fixed;
+    right: 20rem;
 }
 
 .dropdown {
@@ -114,5 +112,6 @@
     background-color: #232628;
     color: #d5d3d0;
 }
+
 
 
