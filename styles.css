@@ -101,7 +101,7 @@
 .dropdown {
     font-family: sourcesanspro;
     font-weight: bold;
-    color:#d5d3d0
+    
 }
 
 #dropdown-text {
@@ -109,3 +109,10 @@
     font-family: sourcesanspro;
     font-weight: bold;
 }
+
+#button {
+    background-color: #232628;
+    color: #d5d3d0;
+}
+
+
