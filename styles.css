@@ -23,9 +23,7 @@
     font-family: qanelas;
 }
 
-body {
-    background-color: black;
-  }
+
   
 #nav-text {
     font-size: 20px;
@@ -59,4 +57,20 @@ body {
     border-bottom: 1px solid #d5d3d0;
 }
 
+#menu-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 40px;
+    padding:.5px;
+    border:.5px solid #d5d3d0;
+    background-color:white;
+    border-radius:50%;
+}
+
+#menu-username {
+    text-align:center;
+    font-family: sourcesanspro;
+}
 
