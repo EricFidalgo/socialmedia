@@ -87,7 +87,7 @@
 #plus {
     position: fixed;
     top: 14px;
-    right: 1.15rem;
+    right: 1.25rem;
     color:#d5d3d0;
     width: 25px;
 }
@@ -116,7 +116,7 @@
     background-color: #232628;
     color: #d5d3d0;
     position: fixed;
-    right: 3.5rem;
+    right: 3.7rem;
 }
 
 #dropdown {
