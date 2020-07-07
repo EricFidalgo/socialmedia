@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html lang="en" data-theme="dark">
-
 <head>
 
     <title>Subscriptions • Social</title>
@@ -17,9 +15,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 <link rel="stylesheet" href="dark.css">
-
 </head>
 <body>
 
@@ -41,35 +37,13 @@
     </div>
   </div> 
 
-<nav class="navbar fixed-bottom" style="background-color: #232628;"id="footer">
-
+  <nav class="navbar fixed-bottom" style="background-color: #232628;"id="footer">
   <a href="index.html"><img class="footer" src="img/home.png" alt="home" width="30px"/></a>
   <a href="subscriptions.html"> <img class="footer" src="img/copyright1.png" alt="subcriptions" width="30px"/> </a>
   <a href="bell.html"> <img class="footer" src="img/bellcopyright.png" alt="notification" width="30px"/></a>
   <a href="mail.html"> <img class="footer" src="img/mail.png" alt="envelope" width="30px"/></a>
 </nav>
 
-<script>
-var checkbox = document.querySelector('input[name=theme]');
-
-checkbox.addEventListener('change', function() {
-    if(this.checked) {
-        trans()
-        document.documentElement.setAttribute('data-theme', 'dark')
-    } else {
-        trans()
-        document.documentElement.setAttribute('data-theme', 'light')
-    }
-})
-
-let trans = () => {
-    document.documentElement.classList.add('transition');
-    window.setTimeout(() => {
-        document.documentElement.classList.remove('transition')
-    }, 1000)
-}
-
-</script>
 
 
 </body>

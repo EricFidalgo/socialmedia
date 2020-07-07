@@ -57,7 +57,6 @@
 #top-nav {
     height: 3.5rem;
     border-bottom: 1px solid #d5d3d0;
-    color: lawngreen;
 }
 
 #menu-pic {
@@ -87,19 +86,35 @@
 #plus {
     position: fixed;
     top: 14px;
-    right: 1.25rem;
+    right: 4.2rem;
     color:#d5d3d0;
     width: 25px;
 }
 
+#search {
+    position: fixed;
+    top: 11px;
+    right: 1.25rem;
+    color:#d5d3d0;
+    width: 32px;
+}
+
+/* Button */
+#button {
+    background-color: #232628;
+    color: #d5d3d0;
+    position: fixed;
+    right: 6.5rem;
+}
 
 #selection {
     position: fixed;
     top: 9px;
     color: #232628;
     width: 22px;
-    right: 10rem;
+    right: 11.6rem;
 }
+
 
 .dropdown {
     font-family: sourcesanspro;
@@ -112,16 +127,9 @@
     font-weight: bold;
 }
 
-#button {
-    background-color: #232628;
-    color: #d5d3d0;
-    position: fixed;
-    right: 3.7rem;
-}
-
 #button:focus {
     outline: 0;
-    box-shadow: 0 0 0px 1px rgba(213, 211, 208, 1);
+    box-shadow: 0 0 0px 0px rgba(213, 211, 208, 1);
 }
 
 #dropdown {
@@ -134,5 +142,26 @@
     border-left: 1px solid #d5d3d0;
     border-bottom: 1px solid #d5d3d0;
     border-radius: 0rem 0rem .5rem .5rem;
+    padding: 0 0;
 }
 
+/* End*/
+
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 1s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 100;
+    
+}
+
+.dropdown.show .dropdown-menu { /* For Bootstrap 4, use .dropdown.show instead of .dropdown.open */
+    max-height: 300px;
+    opacity: 1;
+}

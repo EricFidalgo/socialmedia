@@ -13,6 +13,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="dark.css">
+
 </head>
 <body>
 
@@ -21,15 +22,18 @@
       <a href="menu.html"><img class="navbar-brand" src="img/icon.png" alt="icon"/></a>
       <a class="navbar-brand" href="#"><h1 id="nav-text">Home</h1></a> 
       <a href="menu.html"><img id="plus" src="img/plus.png" alt="plus"/></a>
+      <a href="menu.html"><img id="search" src="img/searchcopyright.png" alt="search"/></a>
 
-      <div class="containe" id="selection">
+      <div class="container" id="selection">
         <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle navbar-right" type="button" id="button" data-toggle="dropdown" >Fuzzy
+        <button class="btn btn-default dropdown-toggle navbar-right" type="button" id="button" data-toggle="dropdown">Fuzzy
         <span class="caret"></span></button>
         <ul class="dropdown-menu" id="dropdown">
+          <div style="height:4px;"><br></div>
           <li class="disabled" id="dropdown-text"><a href="#" target="_parent" style="color: #d5d3d0; text-decoration: none;"> Videos</a></li> 
           <li class="active" id="dropdown-text"><a href="#" target="_parent" style="color: #d5d3d0; text-decoration: none;"> Tweets</a></li>
           <li id="dropdown-text"><a href="#" target="_parent" style="color: #d5d3d0; text-decoration: none;"> Communites</a></li>
+          <div style="height:10px;"><br></div>
         </ul>
       </div>
     </div> 
@@ -68,7 +72,6 @@ let trans = () => {
         document.documentElement.classList.remove('transition')
     }, 1000)
 }
-
 </script>
 
 </body>
