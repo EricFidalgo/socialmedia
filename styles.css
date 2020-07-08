@@ -109,6 +109,7 @@
 /* Button */
 #button {
     background-color: #232628;
+    color: #d5d3d0;
     position: fixed;
     right: 6.7rem;
     font-size: 18px;
