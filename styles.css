@@ -92,22 +92,22 @@
 
 #plus {
     position: fixed;
-    top: 1px;
+    top: 3px;
     right: 3.7rem;
     color:#d5d3d0;
-    width: 38px;
+    width: 33px;
 }
 
 #search {
     position: fixed;
-    top: 3px;
+    top: 5px;
     right: 1.05rem;
     color:#d5d3d0;
-    width: 34px;
+    width: 29px;
 }
 
 /* Button */
-#button {
+#button{
     background-color: #232628;
     color: #d5d3d0;
     position: fixed;
