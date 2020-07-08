@@ -14,7 +14,7 @@ html {
     --bg: #101213;
     --bg-panel: #434343;
     --color-headings: #3694ff;
-    --color-text: #fff;
+    --color-text: #d5d3d0
   }
   
   body {
@@ -43,8 +43,6 @@ html {
     color: var(--color-text);
     grid-area: content;
   }
-
-
 
   
   input[type="checkbox"] {
