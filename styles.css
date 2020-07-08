@@ -170,3 +170,8 @@
     max-height: 300px;
     opacity: 1;
 }
+
+.dropdown-menu a {
+  color: #d5d3d0;
+  text-decoration: none;
+}
