@@ -62,7 +62,7 @@
 }
 
 #top-nav {
-    height: 3.5rem;
+    height: 3rem;
     border-bottom: 1px solid #d5d3d0;
 }
 
@@ -92,18 +92,18 @@
 
 #plus {
     position: fixed;
-    top: 11.8px;
+    top: 1px;
     right: 3.7rem;
     color:#d5d3d0;
-    width: 30px;
+    width: 38px;
 }
 
 #search {
     position: fixed;
-    top: 13.8px;
+    top: 3px;
     right: 1.05rem;
     color:#d5d3d0;
-    width: 26px;
+    width: 34px;
 }
 
 /* Button */
@@ -117,7 +117,7 @@
 
 #selection {
     position: fixed;
-    top: 3.5px;
+    top: 0px;
     color: #232628;
     width: 22px;
     right: 11.6rem;
@@ -142,7 +142,7 @@
 
 #dropdown {
     border: 0px solid rgba(0,0,0,.15);
-    margin: 2.86rem 0 0;
+    margin: 2.95rem 0 0;
     min-width: 10rem;
     float: right;
     background-color: #232628;
