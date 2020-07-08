@@ -172,17 +172,7 @@
 }
 
 .dropdown-menu a {
-  color: #d5d3d0;
+  color: red;
   text-decoration: none;
 }
 
-nav {
-  margin-top: 10px;
-}
-
-#dropdown{
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  padding-inline-start: 0;
-}
