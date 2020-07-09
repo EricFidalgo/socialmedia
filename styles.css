@@ -108,13 +108,65 @@
 
 /* Button */
 #button{
-    background-color;
+    background-color: #232628;
     position: fixed;
     right: 6.7rem;
     font-size: 18px;
     padding: 0px;
-    font-family: moonheavy ;
+    font-family: sourcesanspro;
     font-weight: bold;
 	 color: #d5d3d0;
 }
 
+#selection {
+    position: fixed;
+    margin-top: -.9rem; /* button */
+    color: #232628;
+    width: 22px;
+    right: 11.6rem;
+}
+
+#dropdown-text {
+    text-align: center;
+    font-family: sourcesanspro;
+    font-weight: bold;
+}
+
+#button:focus {
+    outline: 0;
+    box-shadow: 0 0 0px 0px rgba(213, 211, 208, 1);
+}
+
+#dropdown {
+    border: 0px solid rgba(0,0,0,.15);
+    margin: 2.16rem .2rem 0;
+    min-width: 9rem;
+    float: right;
+    background-color: #232628;
+    border-right: 1px solid #d5d3d0;
+    border-left: 1px solid #d5d3d0;
+    border-bottom: 1px solid #d5d3d0;
+    border-radius: 0rem 0rem .5rem .5rem;
+    padding: 0 0;
+}
+
+/* End*/
+
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 1s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 100;
+    
+}
+
+.dropdown.show .dropdown-menu { /* For Bootstrap 4, use .dropdown.show instead of .dropdown.open */
+    max-height: 300px;
+    opacity: 1;
+}
