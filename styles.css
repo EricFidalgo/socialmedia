@@ -110,7 +110,7 @@
     background-color: #232628;
     position: fixed;
     right: 6.7rem;
-    font-size: 18px;
+    font-size: 19px;
     padding: 0px;
     font-family: 'Source Sans Pro', sans-serif;
 	 color: #d5d3d0;
@@ -118,7 +118,7 @@
 
 #selection {
     position: fixed;
-    margin-top: -.9rem; /* button */
+    margin-top: -.925rem; /* button */
     color: #232628;
     width: 22px;
     right: 11.6rem;
@@ -138,7 +138,7 @@
 
 #dropdown {
     border: 0px solid rgba(0,0,0,.15);
-    margin: 2.16rem .2rem 0;
+    margin: 2.17rem .2rem 0;
     min-width: 9rem;
     float: right;
     background-color: #232628;
