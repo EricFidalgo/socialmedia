@@ -45,6 +45,9 @@
     width:26px;
     margin-top: -20.28rem;
     margin-bottom: -20rem;
+/* pfp */
+borde: solid 0.5px #d5d3d0;
+border-radius: 50%;
 }
 
 .footer {
@@ -56,13 +59,13 @@
 
 #footer {
     border-radius:0px 0px 0px 0px;
-    border-top: 1px solid #d5d3d0;
+    border-top: 0.5px solid #d5d3d0;
     
 }
 
 #top-nav {
     height: 2.55rem;
-    border-bottom: 1px solid #d5d3d0;
+    border-bottom: 0.5px solid #d5d3d0;
 }
 
 #menu-pic {p
@@ -138,13 +141,13 @@
 
 #dropdown {
     border: 0px solid rgba(0,0,0,.15);
-    margin: 2.17rem .2rem 0;
+    margin: 2.185rem .2rem 0;
     min-width: 9rem;
     float: right;
     background-color: #232628;
-    border-right: 1px solid #d5d3d0;
-    border-left: 1px solid #d5d3d0;
-    border-bottom: 1px solid #d5d3d0;
+    border-right: 0.5px solid #d5d3d0;
+    border-left: 0.5px solid #d5d3d0;
+    border-bottom: 0.5px solid #d5d3d0;
     border-radius: 0rem 0rem .5rem .5rem;
     padding: 0 0;
 }
