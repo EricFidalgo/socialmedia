@@ -114,7 +114,6 @@
     font-size: 18px;
     padding: 0px;
     font-family: sourcesanspro;
-    font-weight: bold;
 	 color: #d5d3d0;
 }
 
@@ -135,6 +134,7 @@
 #button:focus {
     outline: 0;
     box-shadow: 0 0 0px 0px rgba(213, 211, 208, 1);
+
 }
 
 #dropdown {
