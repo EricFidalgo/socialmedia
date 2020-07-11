@@ -1,27 +1,7 @@
 @font-face {
-    src: url(font/theboldfont.ttf);
-    font-family: boldfont;
-}
-
-@font-face {
-    src: url(font/Uni\ Sans\ Heavy.otf);
-    font-family: unisans;
-}
-@font-face {
-    src: url(font/moongetheavy.ttf);
-    font-family: moonheavy;
-}
-
-@font-face {
     src: url(font/SourceSansPro-Bold.ttf);
     font-family: sourcesanspro;
 }
-
-@font-face {
-    src: url(font/QanelasSoftDEMO-ExtraBold.otf);
-    font-family: qanelas;
-}
-
 
   /*Text */
 #nav-text {
