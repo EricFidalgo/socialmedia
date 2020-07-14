@@ -37,14 +37,14 @@
 .bottom {
     border-top: 0.5px solid #33383a;
     z-index: 1;
-    height: 80px;
 }
 
 .icon {
     width: 26px;
     margin-left: 1.3rem;
     margin-right: 1.3rem;
-    margin-bottom: 30px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 /*END*/
 
