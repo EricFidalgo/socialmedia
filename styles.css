@@ -63,7 +63,7 @@
 }
 
 #profile {
-    margin-left: 4.2rem;
+    padding-left: 4.2rem;
     font-family: sourcesanspro;
     font-size: 18px;
     margin-top: 1rem;
@@ -79,7 +79,7 @@
 
 #seperate {
     float: left;
-    margin-left: 9.16rem;
+    padding-left: 9.16rem;
     font-family: sourcesanspro;
     font-size: 10px;
     margin-top: -1.65rem;
@@ -91,6 +91,14 @@
     font-family: sourcesanspro;
     font-size: 16px;
     margin-top: -1.76rem;
+    padding: 0px 0px 0px 0px;
+}
+
+#color {
+    width:26px;
+    border-radius: 20%;
+    margin-top: -4.1rem;
+    margin-left: 12rem;
 }
 
 #tweet {
@@ -98,5 +106,6 @@
     font-weight: 300;
     font-size: 14px;
     padding-bottom: .2rem;
-    margin-left: 4.1rem;
+    padding-left: 4.1rem;
+    margin-top: -1.5rem;
 }
