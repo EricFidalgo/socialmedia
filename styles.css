@@ -72,30 +72,31 @@
 #account {
     float:left;
     padding-left: 4.7rem;
-    font-family: calibri;
+    font-family: sourcesanspro;
     font-size: 16px;
     margin-top: -1.76rem;
 }
 
 #seperate {
     float: left;
-    margin-left: 9rem;
-    font-family: calibri;
+    margin-left: 9.16rem;
+    font-family: sourcesanspro;
     font-size: 10px;
-    margin-top: -1.5rem;
+    margin-top: -1.65rem;
 }
 
 #time {
     float: left;
-    margin-left: 9.7rem;
-    font-family: calibri;
+    margin-left: 9.65rem;
+    font-family: sourcesanspro;
     font-size: 16px;
     margin-top: -1.76rem;
 }
 
 #tweet {
-    font-family: calibri;
-    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
     padding-bottom: .2rem;
     margin-left: 4.1rem;
 }
