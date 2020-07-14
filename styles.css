@@ -3,73 +3,17 @@
     font-family: sourcesanspro;
 }
 
-  /*Text */
-#nav-text {
-    font-size: 18px;
-    font-family: sourcesanspro;
-    font-weight: bold;
-    margin-top: -.7rem;
-    color: #d5d3d0; 
-    position: fixed;
-    left: 4rem;
+/*Navbar*/
+.top {
+    height: 2.55rem;
+    border-bottom: 0.5px solid #33383a;
 }
-
-.navbar-brand {
-    width:26px;
-    margin-top: -20.28rem;
-    margin-bottom: -20.4rem;
-}
-/*End*/ 
 
 #navbar-brand {
     width:26px;
     margin-top: -20.28rem;
     margin-bottom: -20rem;
-/* pfp */
-borde: solid 0.5px #d5d3d0;
-border-radius: 50%;
-}
-
-.footer {
-    margin-left: 1.3rem;
-    margin-right: 1.3rem;
-    margin-top: 2px;
-    margin-bottom: 2px;
-}
-
-#footer {
-    border-radius:0px 0px 0px 0px;
-    border-top: 0.5px solid #d5d3d0;
-    
-}
-
-#top-nav {
-    height: 2.55rem;
-    border-bottom: 0.5px solid #d5d3d0;
-}
-
-#menu-pic {p
-    display: block;
-    margin-left: .85rem;
-    margin-right: .85rem;
-    width: 13%;
-    margin-top: 20px;
-    padding:.5px;
-    border:.5px solid #d5d3d0;
-    background-color:white;
-    border-radius:50%;
-}
-
-#menu-username {
-    font-family: sourcesanspro;
-    font-size: 20px;
-    margin-top: -50px;
-    margin-left: 100px;
-}
-
-#menu-at {
-    font-family: sourcesanspro;
-    font-size: 20px;
+    border-radius: 50%;
 }
 
 #plus {
@@ -87,68 +31,71 @@ border-radius: 50%;
     color:#d5d3d0;
     width: 29px;
 }
+/*END*/
 
-/* Button */
-#button{
-    background-color: #232628;
-    position: fixed;
-    right: 6.7rem;
-    font-size: 19px;
-    padding: 0px;
-    font-family: 'Source Sans Pro', sans-serif;
-	 color: #d5d3d0;
+/*footer*/
+.bottom {
+    border-top: 0.5px solid #33383a;
+    z-index: 1;
 }
 
-#selection {
-    position: fixed;
-    margin-top: -.925rem; /* button */
-    color: #232628;
-    width: 22px;
-    right: 11.6rem;
+.icon {
+    width: 26px;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+/*END*/
+
+.container {
+    max-width: 2048px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 0.5px solid #33383a;
 }
 
-#dropdown-text {
-    text-align: center;
+#pfp {
+    width: 50px;
+    border-radius: 50%;
+    float:left;
+    margin-top: .2rem;
+}
+
+#profile {
+    margin-left: 4.2rem;
     font-family: sourcesanspro;
-    font-weight: bold;
+    font-size: 18px;
+    margin-top: 1rem;
 }
 
-#button:focus {
-    outline: 0;
-    box-shadow: 0 0 0px 0px rgba(213, 211, 208, 1);
-
+#account {
+    float:left;
+    padding-left: 4.7rem;
+    font-family: calibri;
+    font-size: 16px;
+    margin-top: -1.76rem;
 }
 
-#dropdown {
-    border: 0px solid rgba(0,0,0,.15);
-    margin: 2.185rem .2rem 0;
-    min-width: 9rem;
-    float: right;
-    background-color: #232628;
-    border-right: 0.5px solid #d5d3d0;
-    border-left: 0.5px solid #d5d3d0;
-    border-bottom: 0.5px solid #d5d3d0;
-    border-radius: 0rem 0rem .5rem .5rem;
-    padding: 0 0;
+#seperate {
+    float: left;
+    margin-left: 9rem;
+    font-family: calibri;
+    font-size: 10px;
+    margin-top: -1.5rem;
 }
 
-/* End*/
-
-.dropdown .dropdown-menu {
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 1s;
-
-    max-height: 0;
-    display: block;
-    overflow: hidden;
-    opacity: 100;
-    
+#time {
+    float: left;
+    margin-left: 9.7rem;
+    font-family: calibri;
+    font-size: 16px;
+    margin-top: -1.76rem;
 }
 
-.dropdown.show .dropdown-menu { /* For Bootstrap 4, use .dropdown.show instead of .dropdown.open */
-    max-height: 300px;
-    opacity: 1;
+#tweet {
+    font-family: calibri;
+    font-size: 15px;
+    padding-bottom: .2rem;
+    margin-left: 4.1rem;
 }
