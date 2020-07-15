@@ -107,10 +107,14 @@
     padding: 0 1rem .2rem 4.8rem;
 }
 
-.user-likes {
-    width: 26px;
-    margin-left: 1.3rem;
-    margin-right: 1.3rem;
-    margin-top: 2px;
-    margin-bottom: 2px;
+.like {
+    width: 23px;
+}
+
+.message{
+    width: 23px;
+}
+
+.repost {
+    width: 23px;
 }
