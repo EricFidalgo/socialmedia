@@ -48,64 +48,62 @@
 }
 /*END*/
 
-.container {
+.box {
     max-width: 2048px;
     margin-left: auto;
     margin-right: auto;
-    border-bottom: 0.5px solid #33383a;
+    border-bottom: #33383a 0.5px solid;
 }
 
 #pfp {
     width: 50px;
     border-radius: 50%;
     float:left;
-    margin-top: .2rem;
+    display: block;
+    margin: 1rem 0 0 .7rem;
 }
 
 #profile {
-    padding-left: 4.2rem;
+    display: inline;
+    padding: 0 .2rem 0 1rem;
     font-family: sourcesanspro;
     font-size: 18px;
-    margin-top: 1rem;
 }
 
 #account {
-    float:left;
-    padding-left: 4.7rem;
+    display: inline;
+    padding: 0 0 0 0;
     font-family: sourcesanspro;
     font-size: 16px;
-    margin-top: -1.76rem;
 }
 
 #seperate {
-    float: left;
-    padding-left: 9.16rem;
+    display: inline;
+    padding: 0 0 0 0;
     font-family: sourcesanspro;
     font-size: 10px;
-    margin-top: -1.65rem;
+    vertical-align: .2rem;
 }
 
 #time {
-    float: left;
-    margin-left: 9.65rem;
+    display: inline;
+    padding: 0 .4rem 0 0;
     font-family: sourcesanspro;
     font-size: 16px;
-    margin-top: -1.76rem;
-    padding: 0px 0px 0px 0px;
 }
 
 #color {
-    width:26px;
+    display: inline;
+    padding: 0 0 0 0;
+    width: 26px;
     border-radius: 20%;
-    margin-top: -4.1rem;
-    margin-left: 12rem;
+    vertical-align: 0.001px;
 }
 
 #tweet {
+    display: block;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 14px;
-    padding-bottom: .2rem;
-    padding-left: 4.1rem;
-    margin-top: -1.5rem;
+    padding: 0 1rem .2rem 4.8rem;
 }
