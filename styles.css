@@ -54,7 +54,7 @@
     border-bottom: #33383a 0.5px solid;
 }
 
-#pfp {
+.pfp {
     width: 50px;
     border-radius: 50%;
     float:left;
@@ -62,21 +62,21 @@
     margin: 1rem 0 0 .7rem;
 }
 
-#profile {
+.profile {
     display: inline;
     padding: 0 .2rem 0 1rem;
     font-family: sourcesanspro;
     font-size: 18px;
 }
 
-#account {
+.account {
     display: inline;
     padding: 0 0 0 0;
     font-family: sourcesanspro;
     font-size: 16px;
 }
 
-#seperate {
+.seperate {
     display: inline;
     padding: 0 0 0 0;
     font-family: sourcesanspro;
@@ -84,14 +84,14 @@
     vertical-align: .2rem;
 }
 
-#time {
+.time {
     display: inline;
     padding: 0 .4rem 0 0;
     font-family: sourcesanspro;
     font-size: 16px;
 }
 
-#color {
+.color {
     display: inline;
     padding: 0 0 0 0;
     width: 26px;
@@ -99,10 +99,18 @@
     vertical-align: 0.001px;
 }
 
-#tweet {
+.tweet {
     display: block;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 14px;
     padding: 0 1rem .2rem 4.8rem;
+}
+
+.user-likes {
+    width: 26px;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
