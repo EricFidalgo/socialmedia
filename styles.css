@@ -125,3 +125,10 @@ p.tweet {
     width: 25px;
     margin: 0 1.5rem 0 1.5rem;
 }
+
+.message1 {
+    display:inline-block;
+    text-align: center;
+    width: 25px;
+    margin: 0 0rem 0 9rem;
+}
