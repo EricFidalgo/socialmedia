@@ -31,10 +31,10 @@
       </nav>
       <div style="height: 50px;"><br></div>
 
-      <div id="myDIV" style="margin: 0 auto; text-align: center;">
-      <button type="button" class="btn active" id="posts">Posts</button>
-      <button type="button" class="btn" id="groups">Groups</button>
-      <button type="button" class="btn" id="videos">Videos</button>
+      <div class="container" id="container">
+      <button type="button" class="btn active">Posts</button>
+      <button type="button" class="btn">Groups</button>
+      <button type="button" class="btn">Videos</button>
     </div>    
 
       <div style="height: 10px;"><br></div>
@@ -163,7 +163,7 @@
 
       <script>
         // Add active class to the current button (highlight it)
-        var header = document.getElementById("myDIV");
+        var header = document.getElementById("container");
         var btns = header.getElementsByClassName("btn");
         for (var i = 0; i < btns.length; i++) {
           btns[i].addEventListener("click", function() {
