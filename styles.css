@@ -40,7 +40,8 @@
     border: none;
     outline: none;
     padding: 5px 12px;
-    background-color: #f1f1f1;
+    background-color: #181b1c;
+    color: #d5d3d0;
     cursor: pointer;
     font-size: 18px;
     border-radius: 5rem;
@@ -49,7 +50,7 @@
   }
 
   .active, .btn:hover {
-    background-color: #666;
+    background-color: #42484b;
     color: white;
   }
 
