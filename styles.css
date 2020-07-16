@@ -54,6 +54,7 @@
     border-radius: 5rem;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
+    margin-left: 2rem;
   }
 
   .active, .btn:hover {
@@ -149,8 +150,9 @@ p.tweet {
 }
 
 .pic {
-    display:inline-block;
-    margin: .7rem 0 .7rem 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     min-width: 274.3px;
     max-width: 274.3px;
     min-height: 154.3px;
@@ -159,6 +161,3 @@ p.tweet {
     border: #d5d3d0 1px solid;
 }
 
-.btn {
-    margin-left: 2rem;
-}
