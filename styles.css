@@ -87,7 +87,7 @@
 .color {
     padding: 0 0 0 0;
     width: 7px;
-    vertical-align: 0.001px;
+    vertical-align: 1px;
     display: inline;
     margin-left: .1rem;
 }
