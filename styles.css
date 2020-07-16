@@ -55,7 +55,7 @@
 }
 
 .pfp {
-    width: 50px;
+    width: 48px;
     border-radius: 50%;
     float:left;
     display: block;
@@ -66,14 +66,14 @@
     display: inline;
     padding: 0 .2rem 0 1rem;
     font-family: sourcesanspro;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .seperate {
     display: inline;
     padding: 0 0 0 0;
     font-family: sourcesanspro;
-    font-size: 10px;
+    font-size: 8px;
     vertical-align: .2rem;
 }
 
@@ -81,12 +81,12 @@
     display: inline;
     padding: 0 0.1rem 0 0;
     font-family: sourcesanspro;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .color {
     padding: 0 0 0 0;
-    width: 7px;
+    width: 5px;
     vertical-align: 1px;
     display: inline;
     margin-left: .1rem;
@@ -96,7 +96,7 @@
     display: block;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 13px;
     padding: 0 1rem 0.2rem 4.8rem;
 }
 
@@ -111,7 +111,7 @@ p.tweet {
 .like, .message, .repost, .message1 {
     display:inline-block;
     text-align: center;
-    width: 20px;
+    width: 18px;
     margin: .5rem 1.7rem .5rem 1.7rem;
 }
 
