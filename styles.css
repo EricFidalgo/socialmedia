@@ -43,8 +43,8 @@
     border: #55acee 2px solid;
     border-radius: 5rem;
     color: white;
-    min-width: 100px;
-    font-size: 16px;
+    max-width: 115px;
+    font-size: 14px;
     font-family: sourcesanspro;
 }
 
@@ -52,8 +52,8 @@
     border: #ff4500 2px solid;
     border-radius: 5rem;
     color: white;
-    min-width: 100px;
-    font-size: 16px;
+    max-width: 115px;
+    font-size: 14px;
     font-family: sourcesanspro;
 }
 
@@ -62,8 +62,8 @@
     border: #ff0000 2px solid;
     border-radius: 5rem;
     color: white;
-    min-width: 100px;
-    font-size: 16px;
+    max-width: 115px;
+    font-size: 14px;
     font-family: sourcesanspro;
     margin-right: 1.8rem;
 }
