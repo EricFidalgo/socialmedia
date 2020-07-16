@@ -46,13 +46,14 @@
 }
 
 #videos {
-    border: #ff0000 1px solid;
+    text-align: center;
+    border: #ff0000 solid;
     background-color: #ff0000;
     color: white;
 }
 
 #communities {
-    border: #ff4500 1px solid;
+    border: #ff4500 solid;
     background-color: #ff4500;
     color: white;
 }
