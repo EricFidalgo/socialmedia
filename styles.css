@@ -102,7 +102,7 @@
 .account {
     display: inline;
     padding: 0 .2rem 0 1rem;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 14px;
 }
@@ -126,9 +126,9 @@
 
 .tweet {
     display: block;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
     padding: 0 1rem 0.2rem 4.8rem;
 }
 
