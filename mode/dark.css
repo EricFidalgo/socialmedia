@@ -1,7 +1,7 @@
     html[theme="dark"] {
       --bg: #121212;
       --color-nav: #121212;
-      --color-heading: #d5d3d0;
+      --color-heading: #fff;
       --color-heading2: #989286;
       --color-text: #d5d3d0;
     }
