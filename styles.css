@@ -48,7 +48,7 @@
     outline: none;
     padding: 3px 0;
     background-color: #181b1c;
-    color: #d5d3d0;
+    color: #ceccca;
     cursor: pointer;
     font-size: 18px;
     border-radius: 5rem;
@@ -156,7 +156,7 @@ p.tweet {
     width: 274.3px;
     height: 154.3px;
     border-radius: .25rem;
-    border: #d5d3d0 1px solid;
+    border: #bebebe 1px solid;
     margin-bottom: .5rem;
 }
 
