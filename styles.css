@@ -102,19 +102,11 @@
 .account {
     display: inline;
     padding: 0 .2rem 0 1rem;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 900;
-    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
 }
 
-.seperate {
-    display: inline;
-    padding: 0 0 0 0;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-    font-size: 8px;
-    vertical-align: .2rem;
-}
 
 .time {
     display: inline;
