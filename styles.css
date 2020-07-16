@@ -119,7 +119,10 @@ p.tweet {
     display:inline-block;
     text-align: center;
     margin: .7rem 0 .7rem 0;
-    max-width: 300px;
+    min-width: 274.3px;
+    max-width: 274.3px;
+    min-height: 154.3px;
+    max-height: 154.3px;
     border-radius: 10%;
-    border: #d5d3d0 1.5px solid;
+    border: #d5d3d0 1px solid;
 }
