@@ -40,23 +40,34 @@
  }
  
 #tweets {
-    border: #55acee solid;
-    background-color: #55acee;
+    border: #55acee 2px solid;
+    border-radius: 5rem;
     color: white;
+    min-width: 100px;
+    font-size: 16px;
+    font-family: sourcesanspro;
+}
+
+#communities {
+    border: #ff4500 2px solid;
+    border-radius: 5rem;
+    color: white;
+    min-width: 100px;
+    font-size: 16px;
+    font-family: sourcesanspro;
 }
 
 #videos {
     text-align: center;
-    border: #ff0000 solid;
-    background-color: #ff0000;
+    border: #ff0000 2px solid;
+    border-radius: 5rem;
     color: white;
+    min-width: 100px;
+    font-size: 16px;
+    font-family: sourcesanspro;
+    margin-right: 1.8rem;
 }
 
-#communities {
-    border: #ff4500 solid;
-    background-color: #ff4500;
-    color: white;
-}
 /*END*/
 
 /*footer*/
