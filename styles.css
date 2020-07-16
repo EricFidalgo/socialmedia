@@ -85,10 +85,13 @@
 /*END*/
 
 .box {
-    max-width: 2048px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     border-bottom: #33383a 0.5px solid;
+    border-right: #33383a 0.5px solid;
+    border-left: #33383a 0.5px solid;
+    
 }
 
 .pfp {
@@ -127,7 +130,7 @@
 .tweet {
     display: block;
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
     padding: 0 1rem 0.2rem 4.8rem;
 }
