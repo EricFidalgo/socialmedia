@@ -46,7 +46,7 @@
  .btn {
     border: none;
     outline: none;
-    padding: 5px 12px;
+    padding: 3px 0;
     background-color: #181b1c;
     color: #d5d3d0;
     cursor: pointer;
