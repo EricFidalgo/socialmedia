@@ -46,7 +46,7 @@
  }
  
 #tweets {
-    border: #55acee 2px solid;
+    border: #55acee 1px solid;
     border-radius: 5rem;
     color: white;
     max-width: 90px;
@@ -56,7 +56,7 @@
 }
 
 #groups {
-    border: #ff4500 2px solid;
+    border: #ff4500 1px solid;
     border-radius: 5rem;
     color: white;
     max-width: 90px;
@@ -66,7 +66,7 @@
 }
 
 #videos {
-    border: #ff0000 2px solid;
+    border: #ff0000 1px solid;
     border-radius: 5rem;
     color: white;
     max-width: 90px;
