@@ -41,7 +41,10 @@
 
  .btn {
      margin-top: .5rem;
-     margin-left: 1.5rem !important;
+ .btn {
+     margin-top: .5rem;
+     margin-left: .75rem !important;
+     margin-right: .75rem !important;
  }
  
 #tweets {
