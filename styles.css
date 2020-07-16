@@ -43,18 +43,18 @@
     border: #55acee 2px solid;
     border-radius: 5rem;
     color: white;
-    max-width: 120px;
-    min-width: 120px;
+    max-width: 115px;
+    min-width: 115px;
     font-size: 14px;
     font-family: sourcesanspro;
 }
 
-#communities {
+#groups {
     border: #ff4500 2px solid;
     border-radius: 5rem;
     color: white;
-    max-width: 120px;
-    min-width: 120px;
+    max-width: 115px;
+    min-width: 115px;
     font-size: 14px;
     font-family: sourcesanspro;
 }
