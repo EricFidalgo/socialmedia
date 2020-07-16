@@ -40,12 +40,14 @@
  }
  
 #tweets {
+    display:inline-block;
     border: #55acee solid;
     background-color: #55acee;
     color: white;
 }
 
 #videos {
+    display:inline-block;
     text-align: center;
     border: #ff0000 solid;
     background-color: #ff0000;
@@ -53,6 +55,7 @@
 }
 
 #communities {
+    display:inline-block;
     border: #ff4500 solid;
     background-color: #ff4500;
     color: white;
