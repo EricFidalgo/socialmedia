@@ -2,7 +2,6 @@
 .top {
     height: 2.55rem;
     border-bottom: #33383a 0.5px solid;
-    min-width: 2048px;
 }
 
 #navbar-brand {
@@ -72,7 +71,6 @@
 /*footer*/
 .bottom {
     border-top: #33383a 0.5px solid;
-    min-width: 2048px;
 }
 
 .icon {
