@@ -85,7 +85,7 @@
 /*END*/
 
 .box {
-    width: 414px;
+    max-width: 618px;
     margin-left: auto;
     margin-right: auto;
     border-bottom: #33383a 0.5px solid;
@@ -135,7 +135,8 @@
 }
 
 p.tweet {
-    padding-bottom: 0.2rem;
+    padding-bottom: 0rem;
+    margin: 0 0 .4rem 0;
 }
 
 .medias {
@@ -143,19 +144,16 @@ p.tweet {
 }
 
 .like, .message, .repost, .message1 {
-    display:;
     width: 20px;
-    margin: .5rem 1.7rem .5rem 1.7rem;
+    margin: 0rem 1.7rem .5rem 1.7rem;
 }
 
 .pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 1.2rem;
     width: 274.3px;
     height: 154.3px;
     border-radius: .25rem;
     border: #bebebe 1px solid;
-    margin-bottom: .5rem;
+    margin-bottom: .7rem;
 }
 
