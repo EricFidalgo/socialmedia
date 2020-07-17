@@ -19,9 +19,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 
   </head>
 <body>
+  <!-- In courtesy of: https://getbootstrap.com/docs/4.0/components/navbar/-->
     <nav class="navbar fixed-top top">
          <a href="menu.html"><img id="navbar-brand" src="img/boatpfp.png" alt="icon"/></a>
          <h1 class="navbar-text">Home</h1>
@@ -31,6 +33,7 @@
          </form>
       </nav>
 
+      <!-- In courtesy of: https://getbootstrap.com/docs/4.0/components/buttons/-->
       <div class="box"> 
         <div style="height: 50px;"><br></div>
       <div class="container" id="top-buttons">
@@ -152,7 +155,8 @@
           <div style="height: 46px"> 
             <br>
           </div>
-        
+      
+          <!-- In courtesy of: https://www.w3schools.com/bootstrap/bootstrap_navbar.asp-->
       <nav class="navbar fixed-bottom bottom">
         <a href="index.html"><img class="icon" src="img/home1.png" alt="home"/></a>
         <a href="subscriptions.html"> <img class="icon" src="img/subscriptions.png" alt="subcriptions"/> </a>
@@ -160,8 +164,8 @@
         <a href="mail.html"> <img class="icon" src="img/mail.png" alt="envelope"/></a>
       </nav>
 
-      <script>
-        // Add active class to the current button (highlight it)
+      <!-- In courtesy of: https://www.w3schools.com/howto/howto_js_active_element.asp-->
+      <script> 
         var header = document.getElementById("top-buttons");
         var btns = header.getElementsByClassName("btn");
         for (var i = 0; i < btns.length; i++) {
