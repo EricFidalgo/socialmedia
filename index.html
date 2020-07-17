@@ -30,9 +30,10 @@
             <a href="menu.html"><img id="search" src="img/search.png" alt="search"/></a>
          </form>
       </nav>
-      <div style="height: 50px;"><br></div>
 
-      <div class="container" id="container">
+      <div class="box"> 
+        <div style="height: 50px;"><br></div>
+      <div class="container" id="top-buttons">
       <button type="button" class="btn active">Posts</button>
       <button type="button" class="btn">Groups</button>
       <button type="button" class="btn">Videos</button>
@@ -40,16 +41,13 @@
 
       <div style="height: 10px;"><br></div>
 
-      <div class="box"> 
         <img class="pfp" src="img/boatpfp.png" alt="icon"/>
         <div style="height: .7rem;"><br></div> 
         <h1 class="account">Eric Fidalgo</h1>
         <h4 class="time">5m</h4>
         <img class="color" src="img/blue.png" alt="blue"/>
         <p class="tweet">Check out the new album!!!</p>
-          <div>
-            <a href="pic.html"><img class="pic" src="img/juicemax.png" alt="music"/></a>
-          </div>
+          <a href="pic.html"><img class="pic" src="img/juicemax.png" alt="music"/></a>
           <div class="medias">
           <img class="like" src="img/heart.png" alt="heart"/>
           <img class="message" src="img/message.png" alt="message"/>
@@ -164,7 +162,7 @@
 
       <script>
         // Add active class to the current button (highlight it)
-        var header = document.getElementById("container");
+        var header = document.getElementById("top-buttons");
         var btns = header.getElementsByClassName("btn");
         for (var i = 0; i < btns.length; i++) {
           btns[i].addEventListener("click", function() {
