@@ -135,7 +135,6 @@
 }
 
 p.tweet {
-    padding-bottom: 0rem;
     margin: 0 0 .4rem 0;
 }
 
@@ -149,7 +148,8 @@ p.tweet {
 }
 
 .pic {
-    margin-left: 1.2rem;
+    display: block;
+    margin: 1rem 0 0 4.7rem;
     width: 274.3px;
     height: 154.3px;
     border-radius: .25rem;
