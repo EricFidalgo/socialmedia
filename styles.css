@@ -1,8 +1,8 @@
-
 /*Navbar*/
 .top {
     height: 2.55rem;
     border-bottom: #33383a 0.5px solid;
+    min-width: 2048px;
 }
 
 #navbar-brand {
@@ -72,7 +72,7 @@
 /*footer*/
 .bottom {
     border-top: #33383a 0.5px solid;
-    z-index: 1;
+    min-width: 2048px;
 }
 
 .icon {
@@ -82,6 +82,7 @@
     margin-top: 2px;
     margin-bottom: 2px;
 }
+
 /*END*/
 
 .box {
@@ -135,7 +136,7 @@
 }
 
 p.tweet {
-    margin: 0 0 .4rem 0;
+    margin: 0 0 0.3rem 0; /*Lower than 0.2rem will cause glitch*/
 }
 
 .medias {
@@ -144,7 +145,7 @@ p.tweet {
 
 .like, .message, .repost, .message1 {
     width: 20px;
-    margin: 0rem 1.7rem .5rem 1.7rem;
+    margin: 0.3rem 1.7rem .5rem 1.7rem;
 }
 
 .pic {
@@ -156,4 +157,3 @@ p.tweet {
     border: #bebebe 1px solid;
     margin-bottom: .7rem;
 }
-
