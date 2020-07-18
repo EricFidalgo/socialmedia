@@ -19,52 +19,6 @@
     font-weight: 600;
 }
 
-#plus {
-    position: fixed;
-    top: 3px;
-    right: 3.5rem;
-    width: 33px;
-}
-
-
-#search {
-    position: fixed;
-    top: 5px;
-    right: 1.0rem;
-    width: 29px;
-}
-/*END*/
-
-/*Buttons*/
-
-.btn:focus,.btn:active {
-    outline: none !important;
-    box-shadow: none;
- }
-
- .btn {
-    border: none;
-    outline: none;
-    padding: 0px 0;
-    background-color: #181b1c;
-    color: #ceccca;
-    cursor: pointer;
-    font-size: 18px;
-    border-radius: 5rem;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 700;
-    margin: 0rem 1rem 0 1rem;
-    width: 80px;
-  }
-
-  .container {
-    text-align: center;
-  }
-  .active, .btn:hover {
-    background-color: #42484b;
-    color: white;
-  }
-
 /*END*/
 
 /*footer*/
@@ -124,32 +78,74 @@
     margin-left: 0rem;
 }
 
-.post-text {
+.message-preview {
     display: block;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 14px;
     padding: 0 1rem 0.2rem 4.8rem;
+    max-width: 500px;
 }
 
-p.post-text {
+p.message-preview {
     margin: 0 0 0.3rem 0; /*Lower than 0.2rem will cause glitch*/
 }
 
-.medias {
-    text-align: center;
-}
 
-.like, .message, .repost, .message1 {
-    width: 20px;
-    margin: 0.3rem 1.7rem .5rem 1.7rem;
-}
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text]:focus {
+    width: 100%;
+  }
 
-.pic {
-    margin: 0 0 0 4.7rem;
-    width: 274.3px;
-    height: 154.3px;
-    border-radius: .25rem;
-    border: #33383a 1px solid;
-    margin-bottom: .7rem;
-}
+  .form-control:focus {
+    box-shadow: none;
+  }
+  
+  .form-control-underlined {
+    border-bottom-width: 1px;
+    border-radius: 0;
+  }
+  
+  .form-control::placeholder {
+    font-size: 14px;
+    color: #d5d3d0;
+  }
+
+  .form-control:focus {
+      background-color: #121212;
+      color: #d5d3d0;
+  }
+
+  .form-control {
+    margin-top: -.19rem;
+    height: 1.3rem;
+    width: 300px;
+    background-color: #121212;
+  }
+
+  .p-1 {
+    margin-top: .1rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1.5rem;
+    width: 300px;
+    border: 1px #d5d3d0 solid;
+  }
+
+  .mb-4, .my-4 {
+      margin-bottom: .7rem !important;
+  }
+
+  #button-addon2 {
+      margin-top: -.7rem;
+  }
+
+  .fa {
+      width: 6px;
+  }
